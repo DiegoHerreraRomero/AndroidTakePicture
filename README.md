@@ -65,7 +65,7 @@ On the result you get the new (or actual if you decide don't replace it) path of
 public void onActivityResult(int requestCode, int resultCode, Intent data) {
     if(resultCode == Activity.RESULT_OK){
         switch (requestCode){
-            case TAKE_PHOTO:
+            case REQUEST_INTENT_IDENTIFIER:
                 relativePath = data.getStringExtra("path");
                 break;
         }
