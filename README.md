@@ -40,6 +40,12 @@ The file should be created on res/xml resource folder, if you don't have the fol
 </paths>
 ```
 
+## Copy files
+
+Copy the activitys AdjuntarFotoActivity.java and Images.java on the same package and the activity_adjuntar_foto.xml to "res->layout".
+
+**__Don't forget replace "com.example.yourpackage" with your info, inspect the files.__**
+
 ## How to use?
 
 It's too easy, just call the Activity AdjuntarFotoActivity.class in an intent. Example:
