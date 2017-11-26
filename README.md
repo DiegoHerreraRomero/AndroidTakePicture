@@ -42,7 +42,7 @@ The file should be created on res/xml resource folder, if you don't have the fol
 
 ## Copy files
 
-Copy the activities AdjuntarFotoActivity.java and Images.java on the same package and the activity_adjuntar_foto.xml to "res->layout".
+Copy the activities AdjuntarFotoActivity.java and Images.java on the same package and activity_adjuntar_foto.xml to "res->layout".
 
 **__Don't forget replace "com.example.yourpackage" with your info, inspect the files.__**
 
@@ -64,7 +64,7 @@ startActivityForResult(i, REQUEST_INTENT_IDENTIFIER);
 
 > REQUEST_INTENT_IDENTIFIER : int that identify the result of the Activity.
 
-On the result you get the new (or actual if you decide don't replace it) path of image captured through data.getStringExtra("path"). Example:
+On the result you get the new (or actual if you decide not to replace it) path of image captured through data.getStringExtra("path"). Example:
 
 ```
 @Override
