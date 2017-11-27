@@ -42,7 +42,7 @@ The file should be created on res/xml resource folder, if you don't have the fol
 
 ## Copy files
 
-Copy the activities AdjuntarFotoActivity.java and Images.java on the same package and activity_adjuntar_foto.xml to "res->layout".
+Copy the activities AdjuntarFotoActivity.java, Images.java and ScalingUtilities.java on the same package and activity_adjuntar_foto.xml to "res->layout".
 
 **__Don't forget replace "com.example.yourpackage" with your info, inspect the files.__**
 
